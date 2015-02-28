@@ -1,0 +1,148 @@
+/*Torey Kappler.
+	EUP1 Project.*/
+
+/*body stuff*/
+body {
+    background-image: url("background2.png");
+	background-repeat:  no-repeat;
+	background-attachment:  fixed;
+	background-size:  cover;
+	
+}
+
+
+/*table stuff*/
+table{
+	border: none;
+	font-family:  Palatino Linotype, sans-serif;
+	text-align: center;
+} 
+
+td {
+	border-radius:  5px;
+	border:  1px groove black;
+	padding: 25px;
+	box-shadow: 5px 5px 5px #808080;
+
+}
+
+.table{
+	font-family: Palatino Linotype, sans-serif;
+	text-align: center;
+	margin-right:  auto;
+	margin-left:  auto;
+	width:  32.5%;
+
+}
+
+/*header stuff*/
+header{
+	font-family:  Palatino Linotype, sans-serif;
+	font-size:  8px;
+	text-align:  center; 
+}
+
+/*display logo*/
+.logo{
+	display: block;
+	margin-left:  auto;
+	margin-right: auto;
+	position: relative;
+	top: 1px;
+	
+
+}
+
+/*nav stuff*/
+#navigation{
+	text-align:  center;
+}
+
+
+/*navigation list display*/
+ul{ 
+	font-family:  Palatino Linotype, sans-serif;
+	display: inline-block;
+	list-style: none;
+    text-align: center;
+	padding-top: 10px;
+	padding-right: 45px;
+	padding-bottom: 10px;
+	border-radius:  10px;
+	border: 5px double #B8B1B0;
+	width: 75px;
+	background-color: #3F3D3D
+
+}
+
+ul a {
+	text-decoration: none;
+    color: #FFFFFF;
+
+}
+
+ul a:hover{
+	text-decoration: none;
+    color: #000000;
+    background-color: #E1DFDE;
+	
+}
+/*primary content*/
+#main{
+
+	border-top:  1px groove black;
+	border-bottom: 1px groove black;
+	font-family:  Palatino Linotype, sans-serif;
+	text-align:  center;
+	margin: 10px 10px 10px 10px;
+	padding-top:  10px;
+	font-size: 12px;
+	color:  black;
+	
+
+}
+
+
+
+#text{
+  font-family:  Palatino Linotype, sans-serif;
+  position: absolute;
+  float: left;
+  top: 650px;
+  left: 200px;
+  font-size: 16px;
+
+
+}
+
+
+/*secondary content*/
+#h3{
+	font-family:  Palatino Linotype, sans-serif;
+	font-size: 14px;
+	
+}
+aside{
+
+	font-family:  Palatino Linotype, sans-serif;
+	top:  0px;
+	right: 150px;
+	text-align: center;
+
+}
+#aside{
+	
+	position: absolute;
+	top:  650px;
+	right: 150px;
+
+}
+
+/*footer stuff*/
+#footer{
+	padding-left: 150px;
+	padding: 50px;
+	text-align: center;
+	font-family:  Palatino Linotype, sans-serif;
+	font-size: 12px;
+}
