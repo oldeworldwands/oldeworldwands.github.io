@@ -129,7 +129,7 @@ a{
 aside{
 
 	font-family:  Palatino Linotype, sans-serif;
-	top:  650px;
+	top:  0px;
 	right: 150px;
 	text-align: center;
 	
@@ -138,7 +138,7 @@ aside{
 }
 #aside{
 	
-	
+	position: absolute;
 	top:  650px;
 	right: 150px;
 
