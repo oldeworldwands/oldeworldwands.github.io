@@ -138,7 +138,7 @@ aside{
 }
 #aside{
 	
-	position: absolute;
+	position: fixed;
 	top:  650px;
 	right: 150px;
 
