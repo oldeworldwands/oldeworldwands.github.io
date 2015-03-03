@@ -129,9 +129,10 @@ a{
 aside{
 
 	font-family:  Palatino Linotype, sans-serif;
-	top:  0px;
+	top:  650px;
 	right: 150px;
 	text-align: center;
+	position: fixed;
 	
 
 }
