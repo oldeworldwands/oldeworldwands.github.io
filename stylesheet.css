@@ -2,6 +2,7 @@
 	EUP1 Project.*/
 
 /*body stuff*/
+
 body {
     background-image: url("background2.png");
 	background-repeat:  no-repeat;
@@ -16,6 +17,9 @@ table{
 	border: none;
 	font-family:  Palatino Linotype, sans-serif;
 	text-align: center;
+	
+	
+	
 } 
 
 td {
@@ -40,22 +44,32 @@ header{
 	font-family:  Palatino Linotype, sans-serif;
 	font-size:  10px;
 	text-align:  center; 
+	
 }
+h1{ position: absolute; 
+	top: 10px;
+	left: 789px;
+	text-align: center;  
+	margin-left:2%;}
+
+
 
 /*display logo*/
 .logo{
 	display: block;
-	margin-left:  auto;
+	margin-left: 2%;
 	margin-right: auto;
-	position: relative;
-	top: 1px;
+	top: 10px;
+	padding: 20px;
 	
 
 }
-
+/*Requirement fix: relative positioning*/
 /*nav stuff*/
 #navigation{
-	text-align:  center;
+	position: relative;
+	left: 44%;
+	margin-left: 2%;
 }
 
 
@@ -93,7 +107,6 @@ a{
 }
 /*primary content*/
 #main{
-
 	border-top:  1px groove black;
 	border-bottom: 1px groove black;
 	font-family:  Palatino Linotype, sans-serif;
@@ -102,53 +115,62 @@ a{
 	padding-top:  10px;
 	font-size: 12px;
 	color:  black;
+	margin-left: 2%;
+	position: relative;
+	min-height: 100%;
+	
 	
 
 }
 
+/*Requirement fix:  2 elements side-by-side*/
+#left{
+	width: 640px;
+	margin: 0 auto;
+	
 
+}
 
-#text{
-  font-family:  Palatino Linotype, sans-serif;
-  position: absolute;
-  float: left;
-  top: 650px;
-  left: 200px;
-  font-size: 16px;
+#lefttext, #leftaside{
+	font-family:  Palatino Linotype, sans-serif;
+	float: left;
+	min-height: 450px;
+	color: black;
+	margin-left: 4%;
+	font-size: 16px;
+	
+}
 
+#lefttext{
+	width: 275px;
+	
+
+}
+#leftaside{
+	width: 275px;
 
 }
 
 
 /*secondary content*/
-#h3{
+h3{
 	font-family:  Palatino Linotype, sans-serif;
 	font-size: 14px;
 	
 }
+
 aside{
-
+	
 	font-family:  Palatino Linotype, sans-serif;
-	top:  0px;
-	right: 150px;
-	text-align: center;
-	
-	
-
+	text-align: left;	
 }
-#aside{
-	
-	position: absolute;
-	top:  650px;
-	right: 150px;
+
+#footer{ 
+
+
+clear: both;
+text-align: center;
 
 }
 
-/*footer stuff*/
-#footer{
-	padding-left: 150px;
-	padding: 50px;
-	text-align: center;
-	font-family:  Palatino Linotype, sans-serif;
-	font-size: 12px;
-}
+
